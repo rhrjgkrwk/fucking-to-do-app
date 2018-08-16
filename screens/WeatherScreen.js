@@ -13,7 +13,7 @@ const weatherCases = {
     icon: "ios-rainy",
   },
   Clear: {
-    colors: ["yellow", "ivory"],
+    colors: ["yellow", "orange"],
     title: "Sunny as fuck",
     subtitle: "Go get your ass burnt",
     icon: "ios-sunny",
@@ -97,7 +97,7 @@ export default class WeatherScreen extends Component {
       name,
       location
     } = this.state;
-
+    
     return (
       <View style={styles.container}>
         {isLoaded ? (
