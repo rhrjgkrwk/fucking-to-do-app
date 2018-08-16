@@ -8,6 +8,7 @@ export default class Todo extends React.Component {
     isEditing: false,
   }
   render() {
+    
     return (
       <View>
         <TouchableOpacity>
