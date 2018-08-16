@@ -4,7 +4,9 @@ import { AppLoading, Asset, Font, Icon } from 'expo';
 import AppNavigator from './navigation/AppNavigator';
 
 export default class App extends React.Component {
-
+  componentDidMount() {
+    console.log("dsaasgag");
+  }
   render() {
     return (
       <View style={styles.container}>
@@ -13,7 +15,6 @@ export default class App extends React.Component {
       </View>
     );
   }
-
 }
 
 const styles = StyleSheet.create({
